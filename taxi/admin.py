@@ -1,8 +1,7 @@
 from django.contrib import admin
 from django.contrib.auth.admin import UserAdmin
 
-
-from taxi.models import Driver, Car, Manufacturer
+from taxi.models import Car, Driver, Manufacturer
 
 
 @admin.register(Driver)
